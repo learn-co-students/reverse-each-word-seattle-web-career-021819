@@ -1,4 +1,5 @@
 require 'spec_helper'
+require_relative '../reverse_each_word.rb'
 
 describe '#reverse_each_word' do
   let(:sentence1) { "Hello there, and how are you?" }
